@@ -38,3 +38,35 @@ ul{
 .projects-heading span{
     color: #f33c3c;
 }
+
+.projects-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(237,237,237,0.6);
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.projects-filter li{
+    margin: 10px;
+    padding: 5px 20px;
+    color: #9b9b9b;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
+
+.project-filter-active{
+    background-color: #f0f0f0;
+    color: #272727;
+}
+
+
+
+
+
+
+
